@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"github.com/RobCherry/govips"
+	"github.com/bandlab/govips"
 	"golang.org/x/image/draw"
 	"image"
 	"image/gif"
