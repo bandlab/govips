@@ -1,7 +1,7 @@
 ### Vips for Go
 
-[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg)](http://godoc.org/github.com/RobCherry/govips)
-[![Report Card](https://goreportcard.com/badge/github.com/RobCherry/govips)](https://goreportcard.com/report/github.com/RobCherry/govips)
+[![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg)](http://godoc.org/github.com/bandlab/govips)
+[![Report Card](https://goreportcard.com/badge/github.com/bandlab/govips)](https://goreportcard.com/report/github.com/bandlab/govips)
 
 This package is powered by the [libvips](https://github.com/jcupitt/libvips) image processing library, originally
  created in 1989 at Birkbeck College and currently maintained by [John Cupitt](https://github.com/jcupitt).
@@ -13,7 +13,7 @@ This package is powered by the [libvips](https://github.com/jcupitt/libvips) ima
 ## Installation
 
 ```
-go get github.com/RobCherry/govips
+go get github.com/bandlab/govips
 ```
 
 ### Install libvips on Mac OS
@@ -31,14 +31,14 @@ TODO
 In your own code:
 
 ```go
-import "github.com/RobCherry/govips"
+import "github.com/bandlab/govips"
 
 ...
 govips.Initialize();
 ...
 ```
 
-From the command line (`go install github.com/RobCherry/govips/cli`):
+From the command line (`go install github.com/bandlab/govips/cli`):
 
 ```
 cli -r 300x300 -q 90 -fast-resize -v path/to/input.jpg path/to/output.jpg
@@ -51,7 +51,8 @@ cli -r 300x300 -q 90 -fast-resize -v path/to/input.jpg path/to/output.jpg
 
 ## Author
 
-[Rob Cherry](https://github.com/RobCherry)
+[Rob Cherry](https://github.com/RobCherry) (original fork)
+[Andrew Watts](https://github.com/ahwatts) (this fork, for [BandLab](https://bandlab.com) ([GitHub](https://github.com/bandlab)))
 
 ## Contributing
 
